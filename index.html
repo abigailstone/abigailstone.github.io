@@ -1,128 +1,355 @@
 <!DOCTYPE html>
+
 <html>
 
-<link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
-
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J1BQWKLLQZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-J1BQWKLLQZ');
-</script>
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
 
 <title>Abigail Stone</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
 </head>
 
-
 <body>
-  <header>
-  <a href='index.html'> Abigail Stone</a>
-  <nav>
-      <a href='index.html'>home</a>
-      - <a href='maps.html'>maps</a>
-      - <a href='resume.html'>r&eacutesum&eacute</a>
-  </nav>
-</header>
-
-<main id='home'>
-  <p>Hello!</p>
-  <p>
-    I'm a recent (February 2021) Computer Science graduate of Middlebury College.
-    My main interests are in computer vision, image processing, and remote sensing.
-  </p>
-  <p>
-    <img src='tpi.png' style="width:700px;height:200px" title="Topographic Position Index, near Middlebury VT">
-  </p>
-
-  <h3>Recent Activity</h3>
-  <ul>
-    <li>
-      For my senior thesis, I studied speckle noise reduction methods for multitemporal Synthetic
-      Aperture Radar (SAR) image datasets. I developed an improved diffusion-based despeckling algorithm that leverages
-      both temporal and spatial information to improve the quality of the denoised result,
-      especially for small-scale features.
-    </li>
-    <li>
-      I spent Summer 2020 working on remote sensing research at Middlebury with Professor Andrea Vaccari.
-      Our goal was to classify pavement quality based on X-band Synthetic Aperture Radar amplitude
-      data. We compared pavement data collected by vehicle with SAR data from the COSMO-SkyMed satellite.
-      [<a href='https://github.com/Middsense' target="_blank" rel="noopener noreferrer">group github</a>]
-    </li>
-
-    <li>
-      For a recent data science project, I explored reports of very large flocks of birds in the
-      eBird basic dataset with the
-      goal of understanding trends in the way birders count, estimate, and report very large numbers.
-      [<a href='https://abigailstone.shinyapps.io/birdcounts/' target="_blank" rel="noopener noreferrer">shiny app</a>]
-      [<a href='https://github.com/abigailstone/countingbirds' target="_blank" rel="noopener noreferrer">code</a>]
-      [<a href='https://ebird.org/science/download-ebird-data-products' target="_blank" rel="noopener noreferrer">dataset</a>]
-    </li>
-
-    <!-- <li>
-      TODO: aiy project
-      [<a>code</a>]
-      [<a>images</a>]
-    </li> -->
-
-    <!-- <li>
-    TODO: gol music project
-      [<a>live score</a>]
-      [<a>code</a>]
-    </li> -->
-
-    <li>
-      For my senior seminar capstone project in Fall of 2019, I compared several machine learning methods for
-      automatically classifying land cover (specifically, wetland areas) based
-      on LiDAR data and optical imagery.
-      [<a href='701summary.html'>summary</a>]
-      [<a href='701poster.html'>mid-project poster</a>]
-    </li>
-
-    <li>
-      At the end of my semester abroad in Spring of 2019, I worked as a research assistant
-      at Laboratoire d'Informatique et d'Automatique pour des Syst&egravemes at l'Universit&eacute de Poitiers,
-      where I constructed a prototype network of IoT devices using the LoRaWAN protocol.
-      [<a href='lias.html'>abstract (en/fr)</a>]
-    </li>
-
-    <!-- <li>
-      TODO: remote sensing project
-      [<a>code</a>]
-      [<a>images</a>]
-    </li> -->
 
 
-  </ul>
-
-  <h3>Miscellanea</h3>
-  <p>
-    In my non-CS life, I'm a cellist in the
-    <a href='http://www.middlebury.edu/academics/music/Ensembles/CollegeOrchestra'target="_blank" rel="noopener noreferrer">
-    Middlebury College Orchestra </a>,
-    where I've had the pleasure of  serving on the "Musical Chairs" as Treasurer for 2019-2020 year and Fall 2020 semester.
-  </p>
-  <p>
-    I like to spend my free time hiking and birding and enjoying beautiful Vermont (and on rainy days,
-    adding identifications to <a href='https://www.inaturalist.org/people/953891' target="_blank" rel="noopener noreferrer"> iNaturalist</a>!)
-  </p>
+<div class="container-fluid main-container">
 
 
-</main>
 
-<footer>
-  <nav>
-      <a href='https://github.com/abigailstone' target="_blank" rel="noopener noreferrer" >github</a>
-      - <a href='https://www.linkedin.com/in/abigailstone/' target="_blank" rel="noopener noreferrer" >linkedin</a>
-      - <a href='mailto:stone.abigail@gmail.com' target="_blank" rel="noopener noreferrer" >email</a>
-  </nav>
-  <p>
-    <img src='https://projecteuler.net/profile/abigail_.png' alt="Project Euler" >
-  </p>
-</footer>
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Abigail Stone</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">home</a>
+</li>
+<li>
+  <a href="projects.html">projects</a>
+</li>
+<li>
+  <a href="resume.html">résumé</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:stone.abigail@gmail.com">
+    <span class="fas fa-envelope"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/abigailstone/">
+    <span class="fab fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://linkedin.com/in/abigailstone/">
+    <span class="fab fa-linkedin-in"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="hello" class="section level2">
+<h2>Hello!</h2>
+<p>I’m a recent (February 2021) Computer Science graduate of Middlebury College. My main interests are in computer vision, image processing, and remote sensing. I’m currently a Junior Software Engineer at Applied Research Associates.</p>
+<p><img src="images/radar.jpeg" width="100%" /></p>
+</div>
+<div id="recent-activity" class="section level1">
+<h1>Recent Activity</h1>
+<ul>
+<li><p>For my senior thesis, I studied speckle noise reduction methods for multitemporal Synthetic Aperture Radar (SAR) image datasets. I developed an improved diffusion-based despeckling algorithm that leverages both temporal and spatial information to improve the quality of the denoised result, especially for small-scale features.</p></li>
+<li><p>I spent Summer 2020 working on remote sensing research at Middlebury with Professor Andrea Vaccari. Our goal was to classify pavement quality based on X-band Synthetic Aperture Radar amplitude data. We compared pavement data collected by vehicle with SAR data from the COSMO-SkyMed satellite. [<a href="https://github.com/Middsense">group github</a>]</p></li>
+<li><p>For my senior seminar capstone project in the Fall of 2019, I compared several machine learning methods for automatically classifying land cover (specifically wetland areas) based on LiDAR data and optical imagery. [<a href="701summary.html">abstract &amp; poster</a>]</p></li>
+<li><p>At the end of my semester abroad in the Spring of 2019, I worked as a research assistant at the Laboratoire d’Informatique et d’Automatique pour des Systèmes at l’Université de Poitiers, where I constructed a prototype network of IoT devices using the LoRaWAN protocol.</p></li>
+</ul>
+</div>
+<div id="miscellanea" class="section level1">
+<h1>Miscellanea</h1>
+<p>In my non-CS life I’m a cellist, formerly of the <a href="http://www.middlebury.edu/academics/music/Ensembles/CollegeOrchestra">Middlebury College Orchestra</a>, where I had the pleasure of serving on the “Musical Chairs” as Treasurer for the 2019-2020 academic year and Fall 2020 semester.</p>
+<p>I also thoroughly enjoy hiking and birding and enjoying beautiful Vermont. I have a handful of bird-related data science projects on my <a href="https://github.com/abigailstone/">Github</a>.</p>
+<p><img src="https://projecteuler.net/profile/abigail_.png" /></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
 </html>

@@ -1,0 +1,24 @@
+name: "abigails-website"
+output_dir: "."
+navbar:
+  title: "Abigail Stone"
+  left:
+    - text: "home"
+      href: index.html
+    - text: "projects"
+      href: projects.html
+    - text: "résumé"
+      href: resume.html
+  right:
+    - icon: fa-envelope 
+      href: mailto:stone.abigail@gmail.com
+    - icon: fab fa-github
+      href: http://github.com/abigailstone/
+    - icon: fab fa-linkedin-in
+      href: https://linkedin.com/in/abigailstone/
+output:
+   html_document: 
+      # theme: lumen 
+      css: style.css
+      # after_body: suffix.html
+      
