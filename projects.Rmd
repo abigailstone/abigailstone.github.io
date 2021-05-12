@@ -6,6 +6,13 @@ pagetitle: "Projects"
 
 This page is still under construction! A handful of my projects are on [Github](https://github.com/abigailstone/).
 
+```{r echo=FALSE, results='hide'}
+# GEE Initialization
+library(reticulate)
+library(rgee)
+
+ee_Initialize()
+```
 
 - I'm working on a Google Earth Engine web app to explore ice coverage and historical ice-on and ice-off dates on Lake Champlain, using Sentinel-1 C-band SAR imagery. [[Gee App](https://astone.users.earthengine.app/view/champlain-ice)] [[code](https://github.com/abigailstone/champlain-ice)]
 

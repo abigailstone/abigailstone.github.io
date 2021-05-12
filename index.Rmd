@@ -4,12 +4,13 @@ pagetitle: Abigail Stone
 
 ## Hello!
 
-I'm a recent (February 2021) Computer Science graduate of Middlebury College. My main interests are in computer vision, image processing, and remote sensing. I'm currently a Junior Software Engineer at Applied Research Associates.
+I'm a recent (February 2021) Computer Science graduate of Middlebury College. My main interests are in computer vision, image processing, and remote sensing.
    
 ```{r  out.width = "100%", echo=FALSE}
 library(knitr)
 include_graphics('images/radar.jpeg') 
 ```
+
 
 # Recent Activity
 
