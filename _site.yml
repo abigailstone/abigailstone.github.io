@@ -7,8 +7,8 @@ navbar:
       href: index.html
     - text: "projects"
       href: projects.html
-    - text: "résumé"
-      href: resume.html
+    # - text: "résumé"
+    #   href: resume.html
   right:
     - icon: fa-envelope 
       href: mailto:stone.abigail@gmail.com
