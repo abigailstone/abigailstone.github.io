@@ -20,10 +20,3 @@ ee_Initialize()
 library(knitr)
 include_graphics('images/champlain-preview.png') 
 ```
-
-- Since static images are boring, here's an animated NDVI (Normalized Difference Vegetation Index) over the state of Vermont, 2018-2019. [[dataset](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD13A2)][[code](https://github.com/abigailstone/procrasti-mapping/blob/main/GEECodeEditor/ndviAnimation.js)]
-
-```{r  out.width = "30%", echo=FALSE}
-library(knitr)
-include_graphics('images/vt_ndvi.gif') 
-```
