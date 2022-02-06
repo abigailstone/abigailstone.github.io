@@ -1,9 +1,0 @@
----
-pagetitle: "Résumé"
----
-
-# Résumé
-
-```{r out.height = "800px", out.width='800px', fig.align='left', echo=F}
-knitr::include_graphics("images/resume.pdf")
-```

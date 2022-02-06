@@ -1,8 +1,0 @@
----
-pagetitle: Abigail Stone | 701 Summary
----
-#### Machine Learning Approaches to Wetland Boundary Classification in Google Earth Engine
-
-Machine learning classifiers are becoming more and more prevalent in remote sensing research, especially for environmental monitoring applications. In this project, we investigate the accuracy of Support Vector Machines and Random Forests in generating wetland delineations based on LiDAR (Light Detection and Ranging) topographic data and optical imagery. Wetland classification and delineation provides an interesting application of these tools and algorithms. Wetlands have a very particular topographic signature, easily recognizable to the human eye on LiDAR datasets and in some cases statistically predictable based on environmental factors. Despite their ecological importance, wetlands are frequently under-mapped and/or improperly classified because of their dynamic and fragile nature. 
-
-<!-- TODO: poster -->
