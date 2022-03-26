@@ -1,14 +1,12 @@
-name: "abigails-website"
+name: "Abigail Stone"
 output_dir: "."
 navbar:
   title: "Abigail Stone"
   left:
     - text: "home"
       href: index.html
-    # - text: "projects"
-    #   href: projects.html
-    # - text: "résumé"
-    #   href: resume.html
+    - text: "projects"
+      href: projects.html
   right:
     - icon: fa-envelope 
       href: mailto:stone.abigail@gmail.com
@@ -18,7 +16,7 @@ navbar:
       href: https://linkedin.com/in/abigailstone/
 output:
    html_document: 
-      # theme: lumen 
-      css: style.css
+      theme: lumen
+      css: css/style.css
       # after_body: suffix.html
       
