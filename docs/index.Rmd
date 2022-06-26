@@ -9,11 +9,13 @@ I'm a first-year Electrical & Computer Engineering Ph.D. student at Tufts Univer
 I received my B.A. in Computer Science from Middlebury College, where I worked with Professor Andrea Vaccari on algorithms for Synthetic Aperture Radar imagery.
 
 
+I can be reached by email at abigail.stone [at] tufts.edu.
 
-<center>
-[[email](mailto:stone.abigail@gmail.com)]
-[[github](http://github.com/abigailstone/)] [[pgp](http://pgp.mit.edu:11371/pks/lookup?search=3687249057F33652&op=index)] [[linkedin](https://www.linkedin.com/in/abigailstone/)]
-</center>
+<!-- <center> -->
+<!-- [[github](http://github.com/abigailstone/)]  -->
+<!-- [[pgp](http://pgp.mit.edu:11371/pks/lookup?search=3687249057F33652&op=index)] -->
+<!-- [[linkedin](https://www.linkedin.com/in/abigailstone/)] -->
+<!-- </center> -->
 
 <br> 
 
