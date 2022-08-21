@@ -4,7 +4,7 @@ pagetitle: Abigail Stone
 
 # Hello!
 
-I'm a first-year Electrical & Computer Engineering Ph.D. student at Tufts University, advised by Dr. Karen Panetta. I'm a Research Assistant in Dr. Panetta's Vision and Sensing Systems Laboratory. My main interests are in computer vision, image processing, and remote sensing.
+I'm a Ph.D. student in Electrical & Computer Engineering at Tufts University, advised by Dr. Karen Panetta. I'm a Research Assistant in Dr. Panetta's Vision and Sensing Systems Laboratory. My main interests are in computer vision, image processing, and remote sensing.
 
 I received my B.A. in Computer Science from Middlebury College, where I worked with Professor Andrea Vaccari on algorithms for Synthetic Aperture Radar imagery.
 
