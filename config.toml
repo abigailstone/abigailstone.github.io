@@ -1,5 +1,6 @@
 baseURL = "https://abigailstone.github.io"
 theme = 'hugo-bearblog'
+publishDir = "docs"
 
 title = "Abigail Stone"
 author = "Abigail Stone"

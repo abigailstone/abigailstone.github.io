@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://abigailstone.net/sitemap.xml

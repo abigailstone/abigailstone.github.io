@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abigail Stone</title>
-    <link>https://abigailstone.net/</link>
+    <link>https://abigailstone.github.io/</link>
     <description>Recent content on Abigail Stone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2023, Abigail Stone.</copyright><atom:link href="https://abigailstone.net/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023, Abigail Stone.</copyright><atom:link href="https://abigailstone.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>https://abigailstone.net/research/</link>
+      <link>https://abigailstone.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abigailstone.net/research/</guid>
+      <guid>https://abigailstone.github.io/research/</guid>
       <description>Research Broadly, my research interests focus around new imaging technologies and computer vision algorithms that advance our understanding of the world around us: most importantly, computer vision technologies that help us create a more equitable society and help us to be better stewards of our planet.
 Most recently, I&amp;rsquo;ve been working on depth perception problems from a few different angles (both literally and figuratively), as well as ground-based hyperspectral imagery.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://abigailstone.net/projects/</link>
+      <link>https://abigailstone.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abigailstone.net/projects/</guid>
+      <guid>https://abigailstone.github.io/projects/</guid>
       <description>Projects Here are some things that I&amp;rsquo;ve worked on that aren&amp;rsquo;t related to my research!
 Optimal Big Day A &amp;ldquo;Big Day&amp;rdquo; for birders is a day in which one tries to find as many species of birds as possible. My friend Myles and I built this web app to determine an optimal set of eBird Hotspots to visit in a given county to maximize the number of species that you could reasonably expect to see in a day.</description>
     </item>
