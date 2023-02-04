@@ -1,0 +1,19 @@
+baseURL = "https://abigailstone.net/"
+theme = 'hugo-bearblog'
+
+title = "Abigail Stone"
+author = "Abigail Stone"
+copyright = "Copyright © 2023, Abigail Stone."
+languageCode = "en-US"
+
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  favicon = "images/favicon.png"
+  title = "Abigail Stone"
