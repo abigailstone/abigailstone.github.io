@@ -1,4 +1,4 @@
-baseURL = "https://abigailstone.net/"
+baseURL = "https://abigailstone.github.io"
 theme = 'hugo-bearblog'
 
 title = "Abigail Stone"
