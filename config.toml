@@ -18,3 +18,4 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   favicon = "images/favicon.png"
   title = "Abigail Stone"
+  goatCounter = "abigailstone"
