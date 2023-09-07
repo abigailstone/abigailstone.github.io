@@ -10,4 +10,4 @@ When I'm not coding, I spend my time running, birding, and zooming around the ci
 
 I can be reached by email at abigail.stone [at] tufts.edu. 
 
-You can also find me on [GitHub](https://github.com/abigailstone), [LinkedIn](https://www.linkedin.com/in/abigailstone/), [Google Scholar](https://scholar.google.com/citations?user=cvBe8fIAAAAJ&hl=en), or [Mastodon](https://mathstodon.xyz/@abigail).
+You can also find me on [GitHub](https://github.com/abigailstone), [LinkedIn](https://www.linkedin.com/in/abigailstone/), or [Google Scholar](https://scholar.google.com/citations?user=cvBe8fIAAAAJ&hl=en).
