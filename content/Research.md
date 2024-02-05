@@ -12,7 +12,7 @@ Most recently, I've been working on depth perception problems from a few differe
 
 ### Conference Papers
 
-[Gaze Depth Estimation for Eye-Tracking Systems]()\
+[Gaze Depth Estimation for Eye-Tracking Systems](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12526/125260N/Gaze-depth-estimation-for-eye-tracking-systems/10.1117/12.2664140.short#_=_)\
 **A. Stone**, S. Rajeev, S.P. Rao, K. Panetta, S. Agaian, A. Gardony, J. Nordlund, R. Skantar \
 SPIE Multimodal Image Exploitation and Learning 2023 (SPIE DCS 2023)
 
