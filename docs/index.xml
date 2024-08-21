@@ -13,8 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://abigailstone.github.io/research/</guid>
-      <description>Research Broadly, my research interests focus around new imaging technologies and computer vision algorithms that advance our understanding of the world around us: most importantly, computer vision technologies that help us create a more equitable society and help us to be better stewards of our planet.
-Most recently, I&amp;rsquo;ve been working on depth perception problems from a few different angles (both literally and figuratively), as well as deep learning models for hyperspectral imagery.</description>
+      <description>Research Broadly, my research interests focus around new imaging technologies and computer vision algorithms that advance our understanding of the world around us: most importantly, CV/ML technologies that help both people and the planet.
+ Current Projects Nutrition Logging - In collaboration with researchers at the Tufts School of Nutrition, I&amp;rsquo;ve been working on models that combine deep learning and classical computer vision techniques for estimating nutrient intake based on images of plated meals.</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@ Most recently, I&amp;rsquo;ve been working on depth perception problems from a f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://abigailstone.github.io/projects/</guid>
-      <description>Projects Here are some things that I&amp;rsquo;ve worked on that aren&amp;rsquo;t related to my research!
+      <description>Projects Here are some things that I&amp;rsquo;ve worked on that aren&amp;rsquo;t related to my research! You can also check out my GitHub Profile for some of my other recent experiments.
 Optimal Big Day A &amp;ldquo;Big Day&amp;rdquo; for birders is a day in which one tries to find as many species of birds as possible. My friend Myles and I built this web app to determine an optimal set of eBird Hotspots to visit in a given county to maximize the number of species that you could reasonably expect to see in a day.</description>
     </item>
     

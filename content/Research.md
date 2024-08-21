@@ -6,10 +6,18 @@ weight = 20
 
 # Research
 
-Broadly, my research interests focus around new imaging technologies and computer vision algorithms that advance our understanding of the world around us: most importantly, computer vision technologies that help us create a more equitable society and help us to be better stewards of our planet.
+Broadly, my research interests focus around new imaging technologies and computer vision algorithms that advance our understanding of the world around us: most importantly, CV/ML technologies that help both people and the planet.
 
-Most recently, I've been working on depth perception problems from a few different angles (both literally and figuratively), as well as deep learning models for hyperspectral imagery.
+---
 
+### Current Projects 
+
+**Nutrition Logging** - In collaboration with researchers at the Tufts School of Nutrition, I've been working on models that combine deep learning and classical computer vision techniques for estimating nutrient intake based on images of plated meals. I also supervised a team of senior undergraduate students completing a capstone project on semantic segmentation with direct applications to this work. Dataset and methods paper coming soon!  
+
+**Hyperspectral Agriculture** - I've been working on developing deep learning algorithms for hyperspectral imagery, specifically, band selection and dimensionality reduction techniques for agricultural robotics. I gave an oral presentation at SPIE DCS 2024 on classifying the phenological development stage of broccoli and cauliflower plants using these techniques.
+
+
+---
 ### Publications
 
 [Towards phenological development quantification in *Brassica* plants via multispectral imaging and deep learning](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13033/130330A/Towards-phenological-development-quantification-in-Brassica-plants-via-multispectral-imaging/10.1117/12.3014027.short)\
